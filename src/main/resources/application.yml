@@ -1,0 +1,6 @@
+server:
+  servlet:    context-path: /gis-web 
+  port: 9001
+  tomcat:
+    remote-ip-header: x-forwarded-for
+    protocol-header: x-forwarded-proto
